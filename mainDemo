@@ -1,0 +1,15 @@
+
+public class mainDemo {
+
+	public static void main(String[] args) {
+		
+		TestResult a1 = new TestResult();
+		String a ="fsdfdsfds";
+		a1.addParticipant("fdsfds", "fdsfds");
+		System.out.println(a1.addResult("ffdsfsdf", 2));
+		System.out.println(a1.addResult("fdsfdsf", 2));
+		System.out.println(a1.getAvarage());
+		
+	}
+
+}
